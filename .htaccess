@@ -1,8 +1,8 @@
 # BEGIN REDIRECT HTTPS + WWW
 RewriteEngine On
 RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} !^www\.studioomg\.com.br$ [NC]
-RewriteRule ^(.*)$ https://www.studioomg.com.br/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} !^www\.joiasbaranov\.com.br$ [NC]
+RewriteRule ^(.*)$ https://www.joiasbaranov.com.br/$1 [L,R=301]
 # END REDIRECT HTTPS + WWW
 
 #CACHE CONTROL
