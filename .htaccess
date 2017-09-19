@@ -1,8 +1,8 @@
-# BEGIN REDIRECT HTTPS + WWW
-RewriteEngine On
-RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} !^www\.joiasbaranov\.com.br$ [NC]
-RewriteRule ^(.*)$ https://www.joiasbaranov.com.br/$1 [L,R=301]
+# BEGIN REDIRECT HTTPS + WWW SOMENTE QUANDO CONFIGURAR SSL
+#RewriteEngine On
+#RewriteCond %{HTTPS} off [OR]
+#RewriteCond %{HTTP_HOST} !^www\.joiasbaranov\.com.br$ [NC]
+#RewriteRule ^(.*)$ https://www.joiasbaranov.com.br/$1 [L,R=301]
 # END REDIRECT HTTPS + WWW
 
 #CACHE CONTROL
